@@ -19,8 +19,7 @@ public class Triangulos {
         a = leia.nextInt();
         b = leia.nextInt();
         c = leia.nextInt();
-        
-        
+
         if (a < b + c && b < a + c && c < a + b) {
             System.out.print("Eh Triangulo!");
             if (a == b && a == c && b == c) {
@@ -30,8 +29,8 @@ public class Triangulos {
             } else {
                 System.out.print("\nEscaleno!");
             }
-        }else{
-           System.out.print("Nao eh Triangulo!"); 
+        } else {
+            System.out.print("Nao eh Triangulo!");
         }
     }
 }

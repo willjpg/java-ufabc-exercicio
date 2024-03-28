@@ -26,7 +26,7 @@ public class SubtraçãoVetor {
         }
         for (i = 0; i < 5; i++) {
             sub = arrayA[i] - arrayB[i];
-            System.out.println(sub);
+            System.out.print(sub+" ");
         }
 
     }

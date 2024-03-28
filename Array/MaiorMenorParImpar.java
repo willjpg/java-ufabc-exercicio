@@ -30,7 +30,7 @@ public class MaiorMenorParImpar {
             }
 
         }
-        for (i = 0; i < num.length; i++) {
+        for (i = 0; i < num.length; i++)  {
             boolean isUnique = true;
             for (y = i + 1; y < num.length; y++) {
                 if (num[i] == num[y]) {
@@ -43,6 +43,7 @@ public class MaiorMenorParImpar {
                 vetor[b] = num[i];
                 b++;
             }
+            
             if (num[i] > maior) {
                 maior = num[i];
             }
